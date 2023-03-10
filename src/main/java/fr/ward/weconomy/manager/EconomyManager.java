@@ -26,6 +26,6 @@ public class EconomyManager {
             Bukkit.getServer().getPluginManager().disablePlugin(WEconomy.getInstance());
         }
         Bukkit.getServer().getServicesManager().register(Economy.class, economyRegister, WEconomy.getInstance(), ServicePriority.High);
-        MineLogger.info("EconomyRegister has ben registered!");
+        MineLogger.info("EconomyRegister has been registered!");
     }
 }
